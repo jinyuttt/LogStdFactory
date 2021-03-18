@@ -5,7 +5,7 @@ Serilog使用封装，支持配置
 xml使用特定节点，灵活配置日志，可以查看样例  
 配置：
 
-< Serilog>
+	< Serilog>
 	< !--最小输出级别-->
 	< MinimumLevel>Debug< /MinimumLevel>
 	< !--放置扩展库位置，默认当前目录-->
@@ -23,4 +23,4 @@ xml使用特定节点，灵活配置日志，可以查看样例
 		< rollingInterval>Day< /rollingInterval>
 	< /File>
 	< /SerilogSinks>
-< /Serilog>
+	< /Serilog>
